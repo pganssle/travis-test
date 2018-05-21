@@ -1,0 +1,13 @@
+sudo: false
+language: python
+cache: pip
+python:
+  - "3.3"
+env:
+  TOXENV=py
+
+install:
+  - pip install -U six && pip install -U tox
+
+script:
+  - echo "Script done"
