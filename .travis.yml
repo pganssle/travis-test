@@ -10,4 +10,4 @@ install:
   - pip install -U six && pip install -U tox
 
 script:
-  - echo "Script done"
+  - tox
