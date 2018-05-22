@@ -9,6 +9,7 @@ env:
 install:
   - pip install -U six
   - pip install -U tox
+  - pip install 'virtualenv<16.0'
 
 script:
   - tox -vvv
