@@ -7,7 +7,8 @@ env:
   TOXENV=py
 
 install:
-  - pip install -U six && pip install -U tox
+  - pip install -U six
+  - pip install 'tox<3.0'
   - tox --version
   - wheel version
 
