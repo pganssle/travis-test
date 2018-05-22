@@ -9,7 +9,6 @@ env:
 install:
   - pip install -U six
   - pip install -U tox
-  - pip install -U tox-virtualenv-no-download
 
 script:
-  - tox
+  - tox -vvv
